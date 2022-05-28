@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Patrick Hand', cursive;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Patrick Hand', cursive;
+}
+
+p,button,input,label{
+    font-family: 'Amatic SC', cursive;
+}
+
+h1{
+    background: #efd3bbe3;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: #553a2b;
+    font-size: 47px;
+}
+
+h2{
+    background: #efd3bba6;
+    margin-left: 350px;
+    margin-right: 350px;
+    color: #ba8469;
+    font-size: 37px;
+}
+
+p{
+    background: #f5f5f5be;
+    margin-left: 350px;
+    margin-right: 350px;
+    color: #000000;
+    font-size: 30px;
+}
+
+button{
+    padding: 8px 20px;
+    margin: 12px;
+    background: #ba8469;
+    border: 2px solid #ba8469;
+    cursor: pointer;
+    font-size: 23px;
+    color: #553a2b;
+    transition: .5s;
+}
+
+button:hover{
+    background: transparent;
+    color: #553a2b;
+    padding: 15px 50px;
+}
